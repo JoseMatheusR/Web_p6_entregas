@@ -9,6 +9,7 @@ document.getElementById("requisicao").addEventListener('click', () =>{
 
     fetch(`https://viacep.com.br/ws/${cep}/json/`).then(Response => Response.json())
     .then(data =>{
+        document.getElementById('resultado').innerText = "Resultado:";
         document.getElementById('logradouro').innerText = `Logradouro: ${data.logradouro}`;
         document.getElementById('Bairro').innerText = `Bairro: ${data.bairro}`;
         document.getElementById('Localidade').innerText = `Cidade: ${data.localidade}`;

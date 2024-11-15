@@ -1,0 +1,19 @@
+main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.box{
+  flex-direction: column;
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    background-color: ghostwhite;
+    height: 150px;
+}
+
+button{
+  margin: 5px;
+}
