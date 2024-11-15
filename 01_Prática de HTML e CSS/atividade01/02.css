@@ -1,0 +1,19 @@
+nav a{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    background-color: blueviolet;
+    color: violet;
+    border: 1px burlywood;
+    border-radius: 50%;
+}
+section p{
+    display: inline-block;
+    width: 45%;
+    margin: 5%;
+    background-color: red;
+    color: brown;
+    border: 1px solid purple;
+    box-shadow: 20px 20px 20px black;
+  
+}

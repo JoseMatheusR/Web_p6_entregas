@@ -1,0 +1,15 @@
+main{
+    grid-template-columns: repeat(auto-fill,400px);
+    grid-template-rows: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+div{
+    width: 300px;
+}
+nav{
+    width: 300px;
+}
